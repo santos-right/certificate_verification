@@ -1,0 +1,230 @@
+body {
+    /* text-align: center; */
+    background-color: #20b2aa;
+}
+
+.form-verification {
+    background-color: #fff;
+
+}
+
+.form-verified {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 5px;
+    /* background-color: #fff; */
+    margin-top: 10rem;
+    padding: 18px 50px;
+    justify-content: space-between;
+}
+
+.wrapper {
+    position: absolute;
+    /* background-color: #fff; */
+}
+
+h6 {
+    text-align: left;
+    margin-left: 10rem;
+}
+
+.name-section {
+    position: absolute;
+    margin-top: 10px;
+}
+
+.name-input{
+    max-width: 100%;
+    width: 680px;
+    height: 45px;
+    /* width: calc(100% - 58px); */
+    font-size: 17px;
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    margin-left: 10rem;
+    caret-color: #20b2aa;
+    background: whitesmoke;
+}
+
+.name-input:valid {
+    padding-left: 70px;
+    color: #20b2aa;
+}
+
+.name-input::placeholder {
+    color: #c4c4c4;
+}
+
+.name-input:focus:placeholder {
+    color: #d9d9d9;
+}
+
+.user-icon {
+    position: absolute;
+    top: 1px;
+    bottom: 5px;
+    left: -1px;
+    width: 55px;
+    height: 44px;
+    border: none;
+    background-color: lightgray;
+    color: #333;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    margin-left: 10rem;
+}
+
+.email-section {
+    position: relative;
+    margin-top: 5rem;
+    /* z-index: 1; */
+}
+
+.email-input {
+    max-width: 100%;
+    width: 680px;
+    height: 45px;
+    /* width: calc(100% - 58px); */
+    font-size: 17px;
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    margin-left: 10rem;
+    caret-color: #20b2aa;
+    background: whitesmoke;
+}
+
+.email-input:valid {
+    padding-left: 70px;
+    color: #20b2aa;
+}
+
+.email-input::placeholder {
+    color: #c4c4c4;
+}
+
+.email-input:focus:placeholder {
+    color: #d9d9d9;
+}
+
+.envelope-icon {
+    position: absolute;
+    top: 1px;
+    bottom: 5px;
+    left: -1px;
+    width: 55px;
+    height: 44px;
+    border: none;
+    background-color: lightgray;
+    color: #333;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    margin-left: 10rem;
+}
+
+.coarse-section {
+    position: relative;
+    /* margin-top: 5rem; */
+}
+
+.coarse-input {
+    max-width: 100%;
+    width: 680px;
+    height: 45px;
+    /* width: calc(100% - 58px); */
+    font-size: 17px;
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    margin-left: 10rem;
+    caret-color: #20b2aa;
+    background: whitesmoke;
+}
+
+.coarse-input:valid {
+    padding-left: 70px;
+    color: #20b2aa;
+}
+
+.coarse-input::placeholder {
+    color: #c4c4c4;
+}
+
+.coarse-input:focus:placeholder {
+    color: #d9d9d9;
+}
+
+.bullseye-icon {
+    position: absolute;
+    top: 1px;
+    /* bottom: 20px; */
+    left: -1px;
+    width: 55px;
+    height: 44px;
+    border: none;
+    background-color: lightgray;
+    color: #333;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    margin-left: 10rem;
+}
+
+.date-section {
+    position: absolute;
+    /* margin-top: 5rem; */
+}
+
+.date-input {
+    max-width: 100%;
+    width: 680px;
+    height: 45px;
+    /* width: calc(100% - 58px); */
+    font-size: 17px;
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    margin-left: 10rem;
+    caret-color: #20b2aa;
+    background: whitesmoke; 
+}
+
+.date-input:valid {
+    padding-left: 70px;
+    color: #20b2aa;
+}
+
+.date-input::placeholder {
+    color: #c4c4c4;
+}
+
+.date-input:focus:placeholder {
+    color: #d9d9d9;
+}
+
+.clock-icon {
+    position: absolute;
+    top: 1px;
+    bottom: 5px;
+    left: -1px;
+    width: 55px;
+    height: 44px;
+    border: none;
+    background-color: lightgray;
+    color: #333;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    margin-left: 10rem;
+}

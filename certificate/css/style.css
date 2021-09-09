@@ -1,0 +1,307 @@
+body {
+    text-align: center;
+    background-color: #20b2aa;
+}
+/* span {
+    max-width: 100%;
+    margin-top: 10px;
+    font-size: 13px;
+} */
+.form-container {
+    max-width: 100%;
+    width: 800px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 12rem 10rem 10rem 10rem;
+    padding: 10px 50px;
+    justify-content: space-between;
+}
+
+.verification {
+    position: absolute;
+    margin-top: 10px;
+}
+.verify-input {
+    max-width: 100%;
+    width: 500px;
+    height: 45px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    border-radius: 5px 5px 5px 5px;
+    outline: #20b2aa;
+    margin-left: 5rem;
+    caret-color: #20b2aa;
+    background: whitesmoke;
+}
+.verify-input:valid {
+    padding-left: 70px;
+    color: #20b2aa;
+}
+.verify-input::placeholder {
+    color: #c4c4c4;
+}
+.verify-input:focus:placeholder {
+    color: #d9d9d9;
+}
+.search-icon {
+    position: absolute;
+    top: 1px;
+    bottom: 5px;
+    left: -1px;
+    width: 55px;
+    height: 44px;
+    border: none;font-size: 17px;
+    background-color: lightgray;
+    color: #333;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+    margin-left: 5rem;
+}
+.verify-button {
+    color: #fff;
+    background-color: #20b2aa;
+    max-width: 100%;
+    width: 500px;
+    margin: 5rem 5rem 2rem;
+}
+
+.verify-button:hover {
+    color: #fff;
+    background-color: darkcyan;
+}
+
+
+/*style for verify page*/
+
+.form-verified {
+    max-width: 100%;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 7rem;
+    padding: 10px 50px;
+    justify-content: space-between;
+}
+
+hr {
+    max-width: 100%;
+    width: 31rem;
+    margin-left: 10rem;
+}
+
+h6 {
+    text-align: left;
+    margin-left: 13rem;
+    padding: 10px 0 1px 10px;
+    font-size: 18px;
+}
+
+.name-section {
+    max-width: 100%;
+    position: relative;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+
+.name-input{
+    max-width: 100%;
+    width: 500px;
+    height: 45px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 10rem;
+    caret-color: #20b2aa;
+    background: whitesmoke;
+}
+
+.name-input:valid {
+    padding-left: 70px;
+    color: #20b2aa;
+}
+
+.name-input::placeholder {
+    color: #c4c4c4;
+}
+
+.name-input:focus:placeholder {
+    color: #d9d9d9;
+}
+
+.user-icon {
+    position: absolute;
+    top: 1px;
+    bottom: 5px;
+    left: -1px;
+    width: 55px;
+    height: 44px;
+    border: none;
+    background-color: lightgray;
+    color: #333;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+    margin-left: 10rem;
+}
+
+.email-section {
+    position: relative;
+    margin-top: 2rem;
+    max-width: 100%;
+}
+
+.email-input {
+    max-width: 100%;
+    width: 500px;;
+    height: 45px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 10rem;
+    caret-color: #20b2aa;
+    background: whitesmoke;
+}
+
+.email-input:valid {
+    padding-left: 70px;
+    color: #20b2aa;
+}
+
+.email-input::placeholder {
+    color: #c4c4c4;
+}
+
+.email-input:focus:placeholder {
+    color: #d9d9d9;
+}
+
+.envelope-icon {
+    position: absolute;
+    top: 1px;
+    bottom: 5px;
+    left: -1px;
+    width: 55px;
+    height: 44px;
+    border: none;
+    background-color: lightgray;
+    color: #333;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+    margin-left: 10rem;
+}
+
+.coarse-section {
+    position: relative;
+    max-width: 100%;
+    margin-top: 2rem;
+}
+
+.coarse-input {
+    max-width: 100%;
+    width: 500px;
+    height: 45px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 10rem;
+    caret-color: #20b2aa;
+    background: whitesmoke;
+}
+
+.coarse-input:valid {
+    padding-left: 70px;
+    color: #20b2aa;
+}
+
+.coarse-input::placeholder {
+    color: #c4c4c4;
+}
+
+.coarse-input:focus:placeholder {
+    color: #d9d9d9;
+}
+
+.bullseye-icon {
+    position: absolute;
+    top: 1px;
+    left: -1px;
+    width: 55px;
+    height: 44px;
+    border: none;
+    background-color: lightgray;
+    color: #333;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+    margin-left: 10rem;
+}
+
+.date-section {
+    position: absolute;
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+.date-input {
+    max-width: 100%;
+    width: 500px;
+    height: 45px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 10rem;
+    caret-color: #20b2aa;
+    background: whitesmoke; 
+}
+
+.date-input:valid {
+    padding-left: 70px;
+    color: #20b2aa;
+}
+
+.date-input::placeholder {
+    color: #c4c4c4;
+}
+
+.date-input:focus:placeholder {
+    color: #d9d9d9;
+}
+
+.clock-icon {
+    position: absolute;
+    top: 1px;
+    bottom: 5px;
+    left: -1px;
+    width: 55px;
+    height: 44px;
+    border: none;
+    background-color: lightgray;
+    color: #333;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+    margin-left: 10rem;
+}
+
+.back-button {
+    color: #fff;
+    font-size: 17px;
+    max-width: 100%;
+    background-color: #20b2aa;
+    margin: 5rem  25rem 0 0;
+}
+
+.back-button:hover {
+    color: #fff;
+    background-color: darkcyan;
+}
