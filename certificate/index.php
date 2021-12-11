@@ -16,7 +16,11 @@
 </head>
 <body>
 
-    <div class="container form-verification">
+    <div class="canvas">
+        <canvas id="canvas1"></canvas>
+    </div>
+
+    <!-- <div class="container form-verification">
         <form class="form-container" action="models/verification.php" method="POST">
             <?php
 
@@ -34,7 +38,9 @@
             </div>
             <button type="submit" name="verify_btn" class="btn btn-lg btn-block verify-button" role="button" aria-pressed="true">Verify</button>
         </form>
-    </div>
+    </div> -->
+
+    <script src="js/main.js"></script>
 
 </body>
 </html>

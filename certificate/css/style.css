@@ -2,11 +2,7 @@ body {
     text-align: center;
     background-color: #20b2aa;
 }
-/* span {
-    max-width: 100%;
-    margin-top: 10px;
-    font-size: 13px;
-} */
+
 .form-container {
     max-width: 100%;
     width: 800px;

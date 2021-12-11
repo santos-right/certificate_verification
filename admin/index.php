@@ -152,19 +152,19 @@
                                         
                                         <div class="form-group">
                                             <label for="exampleInputFirstname1">Full Name</label>
-                                            <input type="text" name="full_name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="">
+                                            <input type="text" name="full_name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="" required>
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputLastname1">Email Address</label>
-                                            <input type="email" name="email" class="form-control" id="exampleInput1Email1" placeholder="">
+                                            <input type="email" name="email" class="form-control" id="exampleInput1Email1" placeholder="" required>
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Course</label>
-                                            <input type="text" name="course" class="form-control" id="exampleInput1Coarse1" placeholder="">
+                                            <input type="text" name="course" class="form-control" id="exampleInput1Coarse1" placeholder="" required>
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Date</label>
-                                            <input type="date" name="date" class="form-control" id="exampleInput1Date1" placeholder="">
+                                            <input type="date" name="date" class="form-control" id="exampleInput1Date1" placeholder="" required>
                                         </div>
 
                                         <div class="modal-footer">
@@ -191,7 +191,8 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                Total Registered Certificate</div>
+                                                Total Registered Certificate
+                                            </div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">
                                                 <?php
 
